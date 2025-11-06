@@ -1,0 +1,9 @@
+name: evil_env
+channels:
+- defaults
+dependencies:
+- python==3.7
+- anaconda
+- pip
+- pip:
+  - -r requirements.txt

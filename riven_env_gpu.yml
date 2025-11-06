@@ -1,0 +1,15 @@
+name: riven_env
+channels:
+- pytorch
+- nvidia
+- conda-forge
+- defaults
+dependencies:
+- python
+- anaconda
+- pip
+- pytorch
+- cudatoolkit
+- torchvision
+- pip:
+  - -r requirements_gpu.txt
